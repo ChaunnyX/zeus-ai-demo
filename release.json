@@ -1,6 +1,6 @@
 {
-  "release": "zeus-world-2026-09-28",
-  "sourceSha256": "373c3b72e327aa3bcbe15702d9a893a52dbdafe8d31da322a0fcb1b640da763e",
-  "builtAt": "2026-09-27T21:46:34.176418+00:00",
-  "sourceCommit": "b276816f24542bfdf379d247ccb061ae66ac26c8"
+  "release": "zeus-pulse-2026-09-28",
+  "sourceSha256": "052c3dd08d2fc0f0e7cb87543c13cdae575bb19ba69034d71ae1756f5c198986",
+  "builtAt": "2026-09-27T22:43:41.183719+00:00",
+  "sourceCommit": "0d40610bab7e2e181b2d4faefb80f83f4e02d4eb"
 }

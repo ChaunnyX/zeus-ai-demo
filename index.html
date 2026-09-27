@@ -6,8 +6,16 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"
     />
-    <meta name="color-scheme" content="dark" />
-    <meta name="theme-color" content="#060810" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#090b0e" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("zeus-theme") === "light" ? "light" : "dark";
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
     <title>Zeus AI — ваша студия в браузере</title>
     <meta
       name="description"
@@ -17,9 +25,9 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2288%22>⚡</text></svg>"
     />
-    <link rel="stylesheet" href="./fonts/fonts.css?v=zeus-world-2" />
-    <script type="module" crossorigin src="./assets/index-B7hZxyXT.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D3zugxRi.css">
+    <link rel="stylesheet" href="./fonts/fonts.css?v=pulse-1" />
+    <script type="module" crossorigin src="./assets/index-ZhKWMCjp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-lAM83H8r.css">
   </head>
   <body>
     <div id="root"></div>
