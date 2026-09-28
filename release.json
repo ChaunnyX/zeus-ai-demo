@@ -1,7 +1,7 @@
 {
-  "release": "zeus-spatial-1-2026-09-28",
-  "sourceSha256": "0ac785ea2177b491633968f8f0559611cbc5a9ef7781705cf3b30977d68712a7",
-  "sourceCommit": "e372c254cc593094c83eaeccbb8db0d0f6ce807e",
-  "builtAt": "2026-09-28T13:33:33.971021+00:00",
-  "assetManifestSha256": "0855d7d3fef50e8814235101234ef76a2fb32c426ce37808a3cffee8c9433705"
+  "name": "worlds-1",
+  "sourceCommit": "2c739061cb65db7fdc87eff32afa2d7f16f38442",
+  "sourceManifestSha256": "b226ac5c9ba56650ae889522c865b1701787b8589732764e9101c0d0a25f3338",
+  "artifactManifestSha256": "b66007eb099acea0c3af9cb4b22b2aef712c360532b3d5e415e380f8a684276b",
+  "builtAt": "2026-09-28T14:04:20.725780+00:00"
 }
