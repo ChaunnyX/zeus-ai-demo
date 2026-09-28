@@ -1,7 +1,7 @@
 {
-  "name": "worlds-1",
-  "sourceCommit": "2c739061cb65db7fdc87eff32afa2d7f16f38442",
-  "sourceManifestSha256": "b226ac5c9ba56650ae889522c865b1701787b8589732764e9101c0d0a25f3338",
-  "artifactManifestSha256": "b66007eb099acea0c3af9cb4b22b2aef712c360532b3d5e415e380f8a684276b",
-  "builtAt": "2026-09-28T14:04:20.725780+00:00"
+  "name": "worlds-2",
+  "sourceCommit": "d5c8b2c94963935040e4466856b4fdeec70f2639",
+  "sourceManifestSha256": "b98f8dbafc47d6ed4519eb5cecc57af1b3c2dacdcbf730aa24dbad4342bdd5e1",
+  "artifactManifestSha256": "690c7538ef44c76df1d701152214933b78bd7ff2362140dd1a9b5c5d12e2fc0e",
+  "builtAt": "2026-09-28T14:30:00.751736+00:00"
 }
