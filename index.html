@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,27 +7,34 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"
     />
     <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="#f5efe6" />
+    <meta name="theme-color" content="#090b10" />
     <script>
       try {
+        const saved = localStorage.getItem("zeus-ui-theme-2026");
         document.documentElement.dataset.theme =
-          localStorage.getItem("zeus-theme") === "dark" ? "dark" : "light";
+          saved === "light" ? "light" : "dark";
       } catch {
-        document.documentElement.dataset.theme = "light";
+        document.documentElement.dataset.theme = "dark";
       }
     </script>
-    <title>Zeus AI — опишите сайт, Зевс соберёт</title>
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./assets/manrope-cyrillic-Dvxsihut.woff2"
+      crossorigin
+    />
+    <title>ZEUS — создание сайтов, магазинов и приложений с ИИ</title>
     <meta
       name="description"
-      content="Попробуйте студию Zeus AI: тестовый чат с помощником, интерактивные проекты, история правок и экспорт кода."
+      content="Опишите задачу словами и соберите готовый сайт, магазин или Telegram Mini App в ZEUS: приём заказов, оплата, база данных, подключение MCP и свой домен."
     />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2288%22>⚡</text></svg>"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect width=%2240%22 height=%2240%22 rx=%2210%22 fill=%22%23090b10%22/><text x=%2250%25%22 y=%2256%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22800%22 font-size=%2222%22 fill=%22%23f5f5f7%22>Z</text></svg>"
     />
-    <link rel="stylesheet" href="./fonts/zeus-fonts.css?v=olymp-1" />
-    <script type="module" crossorigin src="./assets/index-BEXCGoRt.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-qCMVodmY.css">
+    <script type="module" crossorigin src="./assets/index-C_6rOrxv.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DssK2OGf.css">
   </head>
   <body>
     <div id="root"></div>
